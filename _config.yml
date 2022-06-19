@@ -28,7 +28,7 @@ search: true
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
-permalink: /:categories/:title/
+permalink: :categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: America/Chicago
@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Chad Cantrell"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/Logo Icon.png"
   bio    : "Developer And Designer "
   links:
     - label: "Website"
@@ -91,7 +91,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: post
     values:
       layout: single
       author_profile: true
@@ -102,7 +102,7 @@ defaults:
   # _pages
   - scope:
       path: "_pages"
-      type: pages
+      type: page
     values:
       layout: single
       author_profile: true
